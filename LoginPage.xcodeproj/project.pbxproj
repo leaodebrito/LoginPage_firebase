@@ -15,6 +15,10 @@
 		C1392E8F2651772D000319B7 /* LoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392E8E2651772D000319B7 /* LoginPageUITests.swift */; };
 		C1392EA02651782B000319B7 /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392E9F2651782B000319B7 /* Cadastro.swift */; };
 		C1392EA22651783B000319B7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392EA12651783B000319B7 /* Login.swift */; };
+		C1392EA426517BC0000319B7 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392EA326517BC0000319B7 /* MotherView.swift */; };
+		C1392EA626517BF2000319B7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392EA526517BF2000319B7 /* SplashView.swift */; };
+		C1392EA926519054000319B7 /* Dissmiss Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392EA826519054000319B7 /* Dissmiss Keyboard.swift */; };
+		C1392EAB26519087000319B7 /* CamposDeEntrada.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392EAA26519087000319B7 /* CamposDeEntrada.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C1392E902651772D000319B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1392E9F2651782B000319B7 /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
 		C1392EA12651783B000319B7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C1392EA326517BC0000319B7 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		C1392EA526517BF2000319B7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		C1392EA826519054000319B7 /* Dissmiss Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dissmiss Keyboard.swift"; sourceTree = "<group>"; };
+		C1392EAA26519087000319B7 /* CamposDeEntrada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamposDeEntrada.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				C1392E712651772B000319B7 /* LoginPageApp.swift */,
-				C1392E732651772B000319B7 /* ContentView.swift */,
 				C1392E9C2651778D000319B7 /* Model */,
 				C1392E9D26517794000319B7 /* View */,
 				C1392E9E2651779C000319B7 /* Controller */,
+				C1392EA726519022000319B7 /* Helper */,
 				C1392E752651772D000319B7 /* Assets.xcassets */,
 				C1392E7A2651772D000319B7 /* Info.plist */,
 				C1392E772651772D000319B7 /* Preview Content */,
@@ -140,6 +148,7 @@
 		C1392E9C2651778D000319B7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1392EA326517BC0000319B7 /* MotherView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,8 +156,10 @@
 		C1392E9D26517794000319B7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C1392E9F2651782B000319B7 /* Cadastro.swift */,
+				C1392EA526517BF2000319B7 /* SplashView.swift */,
+				C1392E732651772B000319B7 /* ContentView.swift */,
 				C1392EA12651783B000319B7 /* Login.swift */,
+				C1392E9F2651782B000319B7 /* Cadastro.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +169,15 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1392EA726519022000319B7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C1392EA826519054000319B7 /* Dissmiss Keyboard.swift */,
+				C1392EAA26519087000319B7 /* CamposDeEntrada.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +312,11 @@
 				C1392EA02651782B000319B7 /* Cadastro.swift in Sources */,
 				C1392E742651772B000319B7 /* ContentView.swift in Sources */,
 				C1392E722651772B000319B7 /* LoginPageApp.swift in Sources */,
+				C1392EAB26519087000319B7 /* CamposDeEntrada.swift in Sources */,
 				C1392EA22651783B000319B7 /* Login.swift in Sources */,
+				C1392EA426517BC0000319B7 /* MotherView.swift in Sources */,
+				C1392EA926519054000319B7 /* Dissmiss Keyboard.swift in Sources */,
+				C1392EA626517BF2000319B7 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
