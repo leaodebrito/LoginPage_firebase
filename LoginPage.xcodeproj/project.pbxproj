@@ -13,6 +13,8 @@
 		C1392E792651772D000319B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1392E782651772D000319B7 /* Preview Assets.xcassets */; };
 		C1392E842651772D000319B7 /* LoginPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392E832651772D000319B7 /* LoginPageTests.swift */; };
 		C1392E8F2651772D000319B7 /* LoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392E8E2651772D000319B7 /* LoginPageUITests.swift */; };
+		C1392EA02651782B000319B7 /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392E9F2651782B000319B7 /* Cadastro.swift */; };
+		C1392EA22651783B000319B7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1392EA12651783B000319B7 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		C1392E8A2651772D000319B7 /* LoginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1392E8E2651772D000319B7 /* LoginPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageUITests.swift; sourceTree = "<group>"; };
 		C1392E902651772D000319B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1392E9F2651782B000319B7 /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		C1392EA12651783B000319B7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,9 @@
 			children = (
 				C1392E712651772B000319B7 /* LoginPageApp.swift */,
 				C1392E732651772B000319B7 /* ContentView.swift */,
+				C1392E9C2651778D000319B7 /* Model */,
+				C1392E9D26517794000319B7 /* View */,
+				C1392E9E2651779C000319B7 /* Controller */,
 				C1392E752651772D000319B7 /* Assets.xcassets */,
 				C1392E7A2651772D000319B7 /* Info.plist */,
 				C1392E772651772D000319B7 /* Preview Content */,
@@ -128,6 +135,29 @@
 				C1392E902651772D000319B7 /* Info.plist */,
 			);
 			path = LoginPageUITests;
+			sourceTree = "<group>";
+		};
+		C1392E9C2651778D000319B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1392E9D26517794000319B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1392E9F2651782B000319B7 /* Cadastro.swift */,
+				C1392EA12651783B000319B7 /* Login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1392E9E2651779C000319B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1392EA02651782B000319B7 /* Cadastro.swift in Sources */,
 				C1392E742651772B000319B7 /* ContentView.swift in Sources */,
 				C1392E722651772B000319B7 /* LoginPageApp.swift in Sources */,
+				C1392EA22651783B000319B7 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
